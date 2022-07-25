@@ -4,39 +4,42 @@
     <meta charset="utf-8" />
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abel&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
-    <section id="container-1">
-      <h1>Ayuda al Escuadron Delta a Cifrar un mensaje!</h1>
-      <img
-        id="logo"
-        src="./imagenes/logo.jpg"
-        alt="Imagen Logo"
-      />
-    </section>
+    <div class="container">
+      <div class="elements-container">
+        <section id="container-1">
+          <h1>Ayuda al Escuadron Delta a Cifrar un mensaje!</h1>
+          <img id="logo" src="./imagenes/logo.jpg" alt="Imagen Logo" />
+        </section>
 
-    <main id="container-2">
-      <label>
-        <textarea
-          type="text"
-          id="textoACifrar"
-          placeholder="Escribe el mensaje que quieres Cifrar"
-        ></textarea>
-      </label>
-      <button id="cifrar-btn" >Cifrar</button>
-      <input type="number" id="desplazamiento"> 
+        <main class="principalContent-container" id="container-2">
+          <label>
+            <textarea
+              type="text"
+              id="textoACifrar"
+              placeholder="Escribe el mensaje que quieres Cifrar"
+            ></textarea>
+          </label>
+          <button id="cifrar-btn">Cifrar</button>
+          <button id="decifrar-btn">Decifrar</button>
+          <input class="clasechingona" type="number" id="desplazamiento" min="1" />
 
-      <label>
-        <textarea
-          type="tex"
-          id="inputCifrado-1"
-          placeholder="El texto Cifrado aparecerá aquí..."
-        ></textarea>
-      </label>
-    </main>
-
-    <div id="root"></div>
-    <script src="index.js" type="module"></script>
+          <label>
+            <textarea
+              type="tex"
+              id="inputCifrado-1"
+              placeholder="El texto Cifrado aparecerá aquí..."
+            ></textarea>
+          </label>
+        </main>
+      </div>
+      <script src="index.js" type="module"></script>
+    </div>
   </body>
 </html>
