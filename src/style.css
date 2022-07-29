@@ -67,8 +67,7 @@ input {
   height: 28px;
   border-radius: 6px;
   outline: none;
-  margin: 20px; /**/
-  border-radius: 30px;
+  margin: 20px; 
   text-align: center;
   font-size: 10px;
 }
@@ -78,9 +77,6 @@ input {
 
 /*Botones*/
 
-.botones {
-  display: flex;
-}
 
 button {
   display: inline-block;
