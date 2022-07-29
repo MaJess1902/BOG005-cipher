@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Caesar Cipher</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abel&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="global-container">
+      <div class="global-elements-container">
+        <section id="container-1">
+          <div class="elemento1-container-1">
+            <h1>Ayuda al Escuadron Delta a Cifrar un Mensaje!</h1>
+          </div>
+          <div class="elemento1-container-2">
+            <img id="logo" src="./imagenes/logo.jpg" alt="Imagen Logo" />
+          </div>
+          <div class="elemento1-container-3">
+            <p>
+              <span
+                >El escuadron delta necesitaba una aplicación para cifrar o
+                descifrar mensajes, así que no dudamos en ayudarlos y creamos
+                una! . A continuación podrás empezar a cifrar los mensajes que
+                necesiten!</span
+              >
+            </p>
+          </div>
+        </section>
+
+        <main class="principalContent-container" id="container-2">
+          <label>
+            <textarea
+              type="text"
+              id="textoACifrar"
+              placeholder="Escribe el mensaje que quieres Cifrar"
+            ></textarea>
+          </label>
+          <input
+            class="input-number"
+            type="number"
+            id="desplazamiento"
+            min="1"
+            placeholder="Indica un número"
+          />
+          <label>
+            <textarea
+              type="tex"
+              id="inputCifrado-1"
+              placeholder="El texto Cifrado aparecerá aquí..."
+            ></textarea>
+          </label>
+          <div class="botones">
+            <button id="cifrar-btn">Cifrar</button>
+            <button id="decifrar-btn">Descifrar</button>
+          </div>
+        </main>
+      </div>
+      <script src="index.js" type="module"></script>
+    </div>
+  </body>
+</html>
