@@ -17,4 +17,4 @@ Para el diseño inicial, tenía una idea de un contenedor que tuviera solo un me
 
 ### Primer Diseño:
 
-[!PrimerDiseño](src/imagenes/PrimerDiseño.jpg)
+[Imagen del Primer Diseño](src/imagenes/PrimerDiseño.jpg)
